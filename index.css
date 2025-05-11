@@ -202,6 +202,167 @@ header{
   white-space: nowrap;
 }
 
+.section6 {
+    background-color: rgb(23, 23, 23); 
+    color: #ffffff;
+    padding: 80px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.section6divheader {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto 60px;
+}
+
+.section6divheader h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section6divheader p {
+    font-size: 18px;
+    color: #a0a0a0; 
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section6divmain {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto 40px;
+}
+
+.section6div1 {
+    position: relative;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.section6divimg {
+    position: relative;
+    padding-bottom: 120%; 
+    border-radius: 4px;
+    background-color: #222; 
+}
+
+.section6divimg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.section6div1:hover .section6divimg img {
+}
+
+.section6title {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sectionpoint{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.point.active {
+    background-color: #fff;
+}
+
+.section7 {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.section7header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section7 h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section7p {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section7divmain {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.section7div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section7div1:hover {
+  background: #f1f1f1;
+}
+
+.section7div1 h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.section7div1 .icon {
+  font-size: 25px;
+  transition: transform 0.3s ease;
+}
+
+.section7div2 {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section7div2 p {
+  padding: 15px 0;
+  line-height: 1.5;
+}
+
+.section7divmain.open .section7div2 {
+  max-height: 500px; 
+}
+
+.section7divmain.open .icon {
+  transform: rotate(45deg);
+}
 
 
 
