@@ -260,6 +260,7 @@ header{
 }
 
 .section6div1:hover .section6divimg img {
+    transform: scale(1.05);
 }
 
 .section6title {
@@ -280,7 +281,7 @@ header{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #555;
+    background-color: #585757;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -364,5 +365,47 @@ header{
   transform: rotate(45deg);
 }
 
+.section8 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #0052ff;
+  color: white;
+  margin-top: 100px;
+}
+        
+.section8title {
+  font-size: 65px;
+  font-weight: bold;
+  max-width: 1200px;
+  margin-bottom: 25px;
+  line-height: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+        
+.section8subtitle {
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+        
+.section8button {
+  background-color: #8BC34A;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+        
+.section8button:hover {
+  background-color: #7CB342;
+}
+        
 
 
