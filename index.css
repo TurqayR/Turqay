@@ -101,11 +101,11 @@ header{
     font-size: 12px;
 }
 
-.kartContainer {
+.section2 {
     width: 100%;
-    
     background-color: #181C1F;
     padding-top: 60px;
+    height: 500px;
 }
 .kartGrid {
     max-width: 1240px;
@@ -118,6 +118,9 @@ header{
 
 .mainkart h2 {
   color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .kartGrid img {
@@ -142,6 +145,7 @@ header{
     font-family: Arial, Helvetica, sans-serif ; 
     font-weight: bold;
     height: 140px;
+    margin-top: 50px;
 }
 
 .p1{
