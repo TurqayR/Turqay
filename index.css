@@ -101,13 +101,13 @@ header{
     font-size: 12px;
 }
 
-.section2 {
+.kartContainer {
     width: 100%;
     background-color: #181C1F;
     padding-top: 60px;
     height: 500px;
 }
-.kartGrid {
+.kartGrid, .kartGrid2 {
     max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
@@ -127,7 +127,6 @@ header{
     width: 100%;
     height: auto;
     border-radius: 5px;
-
 }
 
 .section3{
@@ -198,7 +197,7 @@ header{
   font-family: Arial, Helvetica, sans-serif;
 }
 .section5p {
-  font-size: 1rem;
+  font-size: 15px;
   opacity: 0.7; 
   margin-bottom: 50px;
   font-family: Arial, Helvetica, sans-serif;
@@ -215,7 +214,6 @@ header{
 .loqo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  white-space: nowrap;
 }
 
 .section6 {
@@ -378,6 +376,7 @@ header{
 }
 
 .section7divmain.open .icon {
+
   transform: rotate(45deg);
 }
 
@@ -465,9 +464,12 @@ header{
 }
         
 .copyright {
-  grid-column: 1 / -1;
-  text-align: center;
+  width: 100%;
   padding-top: 40px;
   font-size: 14px;
   color: rgb(160, 159, 159);
+}
+
+.copyright p   {
+  text-align: center;
 }
