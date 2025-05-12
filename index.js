@@ -41,12 +41,12 @@ const kart =[
     }
 ]
 
-const esaskart = document.querySelector(".esaskart")
+const kartGrid = document.querySelector(".kartGrid")
 
 kart.forEach(kart =>{
-    esaskart.innerHTML += `
+    kartGrid.innerHTML += `
     
-    <div class="esaskart">
+    <div class="mainkart">
                     <img src="${kart.url}" alt="">
                     <h2>${kart.title}</h2>
                 </div>
