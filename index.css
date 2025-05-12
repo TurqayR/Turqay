@@ -376,7 +376,6 @@ header{
 }
 
 .section7divmain.open .icon {
-
   transform: rotate(45deg);
 }
 
@@ -448,7 +447,6 @@ header{
   color: rgb(160, 159, 159);
   margin-bottom: 15px;
   display: block;
-  cursor: default;
 }
         
 .social-text {
@@ -470,6 +468,12 @@ header{
   color: rgb(160, 159, 159);
 }
 
-.copyright p   {
+.copyp{
+  height: 100px;
+  margin-top: -50px;
+  background-color: rgb(41, 40, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
